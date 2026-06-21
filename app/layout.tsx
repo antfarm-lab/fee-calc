@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "販売手数料計算ツール｜メルカリ・ラクマの手数料を自動計算",
   description:
     "メルカリやラクマなどフリマアプリの販売手数料を自動計算できる無料ツール。売上から引かれる手数料をすぐ確認できます。",
+  verification: {
+    google: "miCxwdbgRhGe66W37cjiBB0MFNO1tB2WJxh9Dm_zTjc",
+  },
 };
 
 export default function RootLayout({
