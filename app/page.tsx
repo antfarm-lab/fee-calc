@@ -62,6 +62,11 @@ export default function Home() {
     </a>
   </div>
 </section>
+<footer className="mt-8 text-center text-sm text-gray-500">
+  <a className="underline" href="/privacy">
+    プライバシーポリシーS
+  </a>
+</footer>
     </main>
   );
 }
