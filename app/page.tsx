@@ -48,6 +48,26 @@ export default function Home() {
           リセット
         </button>
       </div>
+      <section className="mt-10 bg-white rounded-xl p-6">
+  <h2 className="text-xl font-bold mb-4">
+    販売手数料を事前に把握することが重要な理由
+  </h2>
+
+  <p className="mb-3">
+    メルカリやラクマでは商品が売れると販売手数料が差し引かれます。
+    表示価格そのままが利益になるわけではありません。
+  </p>
+
+  <p className="mb-3">
+    手数料を考慮せずに価格設定すると、
+    想定より利益が少なくなるケースがあります。
+  </p>
+
+  <p>
+    この手数料計算ツールでは販売価格を入力するだけで
+    自動で手数料を計算できます。
+  </p>
+</section>
       <section className="mt-10 rounded-xl border bg-white p-5">
   <h2 className="mb-3 text-lg font-bold">ほかの便利ツール</h2>
   <div className="grid gap-2 text-sm">
