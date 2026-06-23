@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://fee-calc.vercel.app/sitemap.xml",
+    sitemap: "https://fee-calc-seven.vercel.app/sitemap.xml",
   };
 }
