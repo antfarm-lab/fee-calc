@@ -13,9 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "販売手数料計算ツール｜メルカリ・ラクマの手数料を自動計算",
-  description:
-    "メルカリやラクマなどフリマアプリの販売手数料を自動計算できる無料ツール。売上から引かれる手数料をすぐ確認できます。",
+  title: "メルカリ販売手数料計算ツール【無料】",
+description:
+  "メルカリ・ラクマ販売時にかかる販売手数料を無料で自動計算。価格設定や利益計算をしたい物販・副業ユーザー向けの計算ツールです。",
+keywords: [
+  "メルカリ手数料",
+  "販売手数料計算",
+  "ラクマ手数料",
+  "利益計算",
+  "物販",
+  "副業",
+],
   verification: {
     google: "miCxwdbgRhGe66W37cjiBB0MFNO1tB2WJxh9Dm_zTjc",
   },
