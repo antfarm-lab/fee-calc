@@ -48,6 +48,55 @@ export default function Home() {
           リセット
         </button>
       </div>
+      <section className="mt-12 text-left max-w-3xl mx-auto space-y-6">
+
+  <div>
+    <h2 className="text-2xl font-bold mb-3">
+      メルカリの販売手数料はいくら引かれる？
+    </h2>
+    <p>
+      メルカリでは販売価格に対して手数料が差し引かれます。
+      例えば販売価格が3000円の場合、手数料を引いたあとの金額を確認しないと、
+      実際に手元に残る利益を正しく把握できません。
+    </p>
+  </div>
+
+  <div>
+    <h2 className="text-2xl font-bold mb-3">
+      販売価格10000円なら手数料はいくら？
+    </h2>
+    <p>
+      販売価格が高くなるほど、差し引かれる手数料の金額も大きくなります。
+      10000円の商品を販売する場合でも、
+      手数料や送料を差し引いた後の利益を事前に確認することが大切です。
+    </p>
+  </div>
+
+  <div>
+    <h2 className="text-2xl font-bold mb-3">
+      手数料を考えずに価格設定すると赤字になることもある
+    </h2>
+    <p>
+      フリマ販売では、仕入れ値・送料・販売手数料をすべて含めて利益を考える必要があります。
+      手数料を計算せずに値下げすると、
+      売れても利益がほとんど残らない場合があります。
+    </p>
+  </div>
+
+  <div>
+    <h2 className="text-2xl font-bold mb-3">
+      よくある質問
+    </h2>
+    <p>
+      Q. メルカリ以外の手数料計算にも使えますか？<br />
+      A. はい。手数料率を入力できる場合、他サービスの目安計算にも使えます。<br /><br />
+
+      Q. 送料込み販売の利益確認にも使えますか？<br />
+      A. はい。送料や仕入れ値とあわせて利益確認に使えます。
+    </p>
+  </div>
+
+</section>
       <section className="mt-10 bg-white rounded-xl p-6">
   <h2 className="text-xl font-bold mb-4">
     販売手数料を事前に把握することが重要な理由
