@@ -83,18 +83,21 @@ export default function Home() {
     </p>
   </div>
 
-  <div>
-    <h2 className="text-2xl font-bold mb-3">
-      よくある質問
-    </h2>
-    <p>
-      Q. メルカリ以外の手数料計算にも使えますか？<br />
-      A. はい。手数料率を入力できる場合、他サービスの目安計算にも使えます。<br /><br />
+ <div>
+  <h2 className="text-2xl font-bold mb-3">
+    よくある質問
+  </h2>
+  <p>
+    Q. このツールの販売手数料率はいくつですか？<br />
+    A. 販売価格の10%を販売手数料として計算します。<br /><br />
 
-      Q. 送料込み販売の利益確認にも使えますか？<br />
-      A. はい。送料や仕入れ値とあわせて利益確認に使えます。
-    </p>
-  </div>
+    Q. 手取り金額はどのように計算されますか？<br />
+    A. 販売価格から10%の販売手数料を差し引いた金額を表示します。<br /><br />
+
+    Q. 利益額も計算できますか？<br />
+    A. このツールは手数料と手取り金額の確認に特化しています。利益計算には関連ツールの「送料込み利益計算ツール」や「総合計算ツール」をご利用ください。
+  </p>
+</div>
 
 </section>
       <section className="mt-10 bg-white rounded-xl p-6">
@@ -175,7 +178,7 @@ export default function Home() {
 </p>
 <footer className="mt-8 text-center text-sm text-gray-500">
   <a className="underline" href="/privacy">
-    プライバシーポリシーS
+    プライバシーポリシー
   </a>
 </footer>
     </main>
